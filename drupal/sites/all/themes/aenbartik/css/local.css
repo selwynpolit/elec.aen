@@ -1,0 +1,223 @@
+/* local.css
+created by: Selwyn Polit
+On: 9-16-2014
+*/
+/*
+@font-face { font-family: "Droid Sans"; src: url('../fonts/DroidSans.ttf'); }
+@font-face { font-family: "Droid Sans"; font-weight:bold; src: url('../fonts/DroidSans-Bold.ttf'); }
+
+
+body, body.overlay {
+  /*color: #ACD3F2;*/
+  color: #3596E6;
+  color: #246DA9;
+  /*background:#ACD3F2;*/
+  font-family: "Droid Sans",Arial,sans-serif;
+
+}
+
+h1#page-title{
+	color:#0071B3;
+}
+
+#name-and-slogan {
+    font-size: 1.5em;
+}
+
+p {
+    margin: 0 0 1.2em;
+}
+
+#list-instruc {
+    text-align: center;
+}
+.sidebar .block .content {
+    font-size: 0.914em;
+    line-height: 1.4;
+}
+
+
+.region-header .block {
+    font-size: 1em;
+}
+
+
+
+
+/*  http://www.austinprogressivecalendar.com/permablitz */
+#list-instruc{
+	border: 1px solid rgb(53, 150, 230);
+	text-align: center;
+	//color: #d7e8f5;
+	background-color: #d7e8f5;
+}
+#list-instruc p{
+	margin:0px;
+	padding: 5px;
+	font-size: 130%;
+	text-align: center;
+}
+
+
+
+#block-views-permablitz-block h2{
+	text-align: center;
+	font-weight: bold; 
+	
+}
+.view-display-id-block .more-link a{
+	text-transform:uppercase;
+	font-size:1.2em;
+	color:#000060;
+	background-color:#d7e8f5;
+}
+
+.field-name-field-potluck-date
+{
+padding-bottom:25px;
+/*
+	//font-size:18px;
+	//border-bottom: 1px solid #d3d7d9;
+	//background-color: #f2f2f2;
+*/
+}
+
+
+.node-potluck .page-title
+{
+text-align:center;
+}
+
+.node-potluck .field-name-field-potluck-date
+{
+margin-left: 40px;
+}
+
+
+.field-name-field-potluck-date .field-items, .field-name-field-potluck-date .field-label
+{
+font-size:18px;
+border-bottom: 1px solid #d3d7d9;
+background-color: #f2f2f2;
+}
+
+#gmap-auto1map-gmap0
+{
+border: 1px solid #d3d7d9;
+padding 5px;
+}
+
+.field-name-field-host-directions
+{
+padding-top: 20px;
+margin-left: 20px;
+//border: 1px solid #d3d7d9;
+
+}
+
+.node-potluck .field-name-body
+{
+margin-left: 20px;
+margin-right: 20px;
+//border: 1px solid #d3d7d9;
+border: 1px solid #ccc;
+padding-left: 20px ;
+padding-right: 20px ;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+
+.node-potluck .field-name-field-instructions
+{
+margin-left: 20px;
+margin-right: 20px;
+border: 1px solid #ccc;
+padding-left: 20px ;
+padding-right: 20px ;
+padding-top: 5px;
+padding-bottom: 5px;
+margin-bottom: 50px;
+}
+
+.node-potluck .field-name-taxonomy-vocabulary-1
+{
+padding-top: 25px;
+
+}
+
+#farmers-market-title
+{
+background-color: #f2f2f2;
+  width: 600px;
+  border: 1px solid #ccc;
+  padding: 10px 10px 10px 10px ;
+  font-size: 1.5em;
+  line-height: 1;
+}
+.views-field-service-links
+{
+padding-left: 20px;
+}
+
+
+
+
+#main-wrapper, #page
+{
+background-color:#D7E8F5;
+}
+
+
+
+
+
+
+
+.field a:link {
+	color: blue;
+	font-weight:bold;
+}
+
+.field a:visited {
+	color: #909090;
+	font-weight:bold;
+}
+/*
+	Specific items for the elections microsite reports
+*/
+.view-candidate-slicer {
+	width: 690px;
+}
+.view-islicer{
+	width: 730px;
+}
+
+.view-islicer .views-field-field-answer{
+	width: 300px;
+}
+.view-islicer .views-field{
+	vertical-align: text-top;
+	text-align: center;
+}
+
+.view-islicer .views-field-field-answer,
+.view-islicer .views-field-field-question{
+	text-align: left;
+}
+
+.view-slicer a:link{
+	text-decoration: underline;
+}
+/*
+.form-item-field-question-number-value input {
+#edit-field-question-number-value 
+*/
+input#edit-field-question-number-value{
+	width: 65px;
+	//size:12;
+}
+	
+.page-islicer #main-wrapper{
+	width: 750px;
+	}
+	

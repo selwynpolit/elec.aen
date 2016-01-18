@@ -1,0 +1,34 @@
+/*
+	local.css 
+	9-26-14: selwyn
+	
+*/
+
+.view-islicer .views-field{
+	vertical-align: text-top;
+	text-align: center;
+}
+
+.view-candidate-slicer .views-field{
+	vertical-align: text-top;
+}
+
+
+.view-islicer .views-field-field-answer,
+.view-islicer .views-field-field-question{
+	text-align: left;
+}
+
+.view-islicer a:link,
+.view-slicer a:link{
+	text-decoration: underline;
+}
+
+input#edit-field-question-number-value{
+	width: 65px;
+	
+}
+
+input#edit-field-runoff-value{
+	width: 65px;
+}
